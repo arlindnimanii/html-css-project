@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto&display=swap');
+
+:root{
+    --primary-color: #CDA460;
+}
+
+body{
+    
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a.active{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+header i{
+    color: var(--primary-color); 
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    color: white;
+    height: 85px;    
+}
+
+header .wrapper{
+    background-color: rgba(0,0,0,0.8);
+    height: 50px;    
+}
+
+header .header{
+height: 50px;
+}
+
+header .info-header{
+    height:35px;
+}
+
+header.contact, header.lang a{
+    font-size: 12px;
+}
+
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul li ul{
+    display: none;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px
+}
+
+header nav ul li a:hover{
+    color:rgba(237, 245, 18, 0.8);
+}
+
+.book-a-table{
+    border: 2px solid yellow;
+    border-radius: 35px;
+    
+}
+
+.book-a-table:hover{
+color: white;
+background-color:rgba(237, 245, 18, 0.8) ;
+border: 2px solid blueviolet;
+border-radius: 35px;
+padding: 5px;
+}
+
+
+main{
+    height: calc(100vh-85px);
+    display: flex;
+    align-items: center;
+}
+
+main.container{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
